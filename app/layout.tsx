@@ -25,7 +25,9 @@ export default function RootLayout({
             <HeaderLink href="https://www.linkedin.com/in/chavesnico">
               LinkedIn
             </HeaderLink>
-            <HeaderLink href="https://www.copybass.com">Copy Bass</HeaderLink>
+            <HeaderLink href="https://www.copybass.com">
+              CopyBass.com
+            </HeaderLink>
           </nav>
         </header>
         <div className="p-8 md:p-16 md:pt-8">{children}</div>
