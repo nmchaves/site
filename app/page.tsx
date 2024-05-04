@@ -30,8 +30,10 @@ export default function Home() {
         TypeScript, React, Node.js, GraphQL, and SQL (especially PostgreSQL)
       </p>
       <p className="mb-8">
-        When I&apos;m not building software, I like hiking with my dog Sophie,
-        doing Muay Thai, spending time in the ocean, and playing bass guitar.
+        When I&apos;m not building software, I&apos;m probably listening to a
+        podcast about software 😂 ...But when I&apos;m not doing <em>that</em>,
+        I like hiking with my dog Sophie, doing Muay Thai, spending time in the
+        ocean, and playing bass guitar.
       </p>
       <p>
         Check out my website{" "}
