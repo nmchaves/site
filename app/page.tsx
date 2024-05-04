@@ -19,9 +19,11 @@ export default function Home() {
         <br />
         TypeScript, React, Node.js, GraphQL, and SQL (especially PostgreSQL)
       </p>
-      <p className="text-center">
+      <p className="text-center mb-8">
         When I&apos;m not building software, I like hiking with my dog Sophie,
         doing Muay Thai, spending time in the ocean, and playing bass guitar.
+      </p>
+      <p className="text-center">
         Check out my website{" "}
         <Link
           href="https://www.copybass.com/"
@@ -29,7 +31,7 @@ export default function Home() {
         >
           CopyBass.com
         </Link>
-        , which I created to help me practice playing bass.
+        , which I created to help me practice playing bass. 🤘
       </p>
     </main>
   );
