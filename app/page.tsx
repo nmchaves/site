@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import nicoImg from "@/public/nico_sky_blue_polo.jpeg";
+import nicoSunset from "@/public/nico_sunset.jpeg";
+import fortFunstonOverlook from "@/public/fort_funston_overlook.jpeg";
+import sophieParkSunset from "@/public/sophie_park_sunset.jpeg";
+import rayAndTurtle from "@/public/ray_and_turtle.jpeg";
+import dogBeach from "@/public/dog_beach.jpeg";
 
 export default function Home() {
   return (
@@ -34,6 +39,38 @@ export default function Home() {
         </Link>
         , which I created to help me practice playing bass. 🤘
       </p>
+      <div className="mt-16 grid gap-8 grid-cols-1 md:grid-cols-2 max-w-md md:max-w-4xl">
+        <Image
+          src={nicoSunset}
+          alt="A photo of Nico standing in a lush meadow overlooking the West Maui Mountains as the sun sets."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={fortFunstonOverlook}
+          alt="A photo of Nico petting his German Shepherd Sophie on a sandy hill overlooking the ocean at Fort Funston in San Francisco."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={sophieParkSunset}
+          alt="A photo of Nico petting his German Shepherd Sophie's belly while she lays on the grass at the park as the sun sets."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={rayAndTurtle}
+          alt="An underwater photo of a Hawaiian spotted eagle ray and green sea turtle swimming peacefully."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={dogBeach}
+          alt="A photo of Nico with 2 German Shepherds on a beach with the San Francisco Bay in the background."
+          placeholder="blur"
+          className="rounded"
+        />
+      </div>
     </main>
   );
 }
