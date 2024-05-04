@@ -9,6 +9,7 @@ export default function Home() {
       <Image
         src={nicoImg}
         alt="Photo of Nico Chaves"
+        priority
         placeholder="blur"
         width={200}
         className="rounded-full mb-12"
