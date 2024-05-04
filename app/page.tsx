@@ -6,6 +6,8 @@ import fortFunstonOverlook from "@/public/fort_funston_overlook.jpeg";
 import sophieParkSunset from "@/public/sophie_park_sunset.jpeg";
 import rayAndTurtle from "@/public/ray_and_turtle.jpeg";
 import dogBeach from "@/public/dog_beach.jpeg";
+import fenderBass from "@/public/fender_precision_bass.jpeg";
+import nicoHeavyBag from "@/public/nico_heavy_bag_round_kick.jpeg";
 
 export default function Home() {
   return (
@@ -67,6 +69,18 @@ export default function Home() {
         <Image
           src={dogBeach}
           alt="A photo of Nico with 2 German Shepherds on a beach with the San Francisco Bay in the background."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={fenderBass}
+          alt="A close-up photo of Nico's left-handed Fender Precision Bass."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={nicoHeavyBag}
+          alt="A photo of Nico kicking a heavy bag with a Muay Thai round kick."
           placeholder="blur"
           className="rounded"
         />
