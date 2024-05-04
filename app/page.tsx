@@ -11,8 +11,8 @@ import nicoHeavyBag from "@/public/nico_heavy_bag_round_kick.jpeg";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center max-w-5xl mx-auto text-center">
-      <h1 className="text-3xl font-semibold mb-12">
+    <main className="flex flex-col items-center max-w-5xl mx-auto">
+      <h1 className="text-3xl font-semibold text-center mb-12">
         Hey! I&apos;m Nico Chaves
       </h1>
       <Image
@@ -23,28 +23,30 @@ export default function Home() {
         width={200}
         className="rounded-full mb-12"
       />
-      <p className="mb-8">
-        I&apos;m a full-stack software engineer with significant experience
-        using tools like:
-        <br />
-        TypeScript, React, Node.js, GraphQL, and SQL (especially PostgreSQL)
-      </p>
-      <p className="mb-8">
-        When I&apos;m not building software, I&apos;m probably listening to a
-        podcast about software 😂 ...But when I&apos;m not doing <em>that</em>,
-        I like hiking with my dog Sophie, doing Muay Thai, spending time in the
-        ocean, and playing bass guitar.
-      </p>
-      <p>
-        Check out my website{" "}
-        <Link
-          href="https://www.copybass.com/"
-          className="underline underline-offset-4 hover:decoration-2"
-        >
-          CopyBass.com
-        </Link>
-        , which I created to help me practice playing bass. 🤘
-      </p>
+      <div className="w-full max-w-[580px]">
+        <p className="mb-8">
+          I&apos;m a full-stack software engineer with significant experience
+          using tools like:
+          <br />
+          TypeScript, React, Node.js, GraphQL, and SQL (especially PostgreSQL)
+        </p>
+        <p className="mb-8">
+          When I&apos;m not building software, I&apos;m probably listening to a
+          podcast about software 😂 ...But when I&apos;m not doing <em>that</em>
+          , I like hiking with my dog Sophie, doing Muay Thai, spending time in
+          the ocean, and playing bass guitar.
+        </p>
+        <p>
+          Check out my website{" "}
+          <Link
+            href="https://www.copybass.com/"
+            className="underline underline-offset-4 hover:decoration-2"
+          >
+            CopyBass.com
+          </Link>
+          , which I created to help me practice playing bass. 🤘
+        </p>
+      </div>
       <div className="mt-16 gap-8 space-y-8 md:columns-2 max-w-md md:max-w-4xl">
         <Image
           src={nicoSunset}
