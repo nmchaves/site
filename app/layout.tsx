@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Link, { LinkProps } from "next/link";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,7 +17,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header className="py-8 flex justify-center">
+          <nav>
+            <HeaderLink href="/">Home</HeaderLink>
+            <HeaderLink href="https://github.com/nmchaves">GitHub</HeaderLink>
+            <HeaderLink href="https://www.linkedin.com/in/chavesnico">
+              LinkedIn
+            </HeaderLink>
+            <HeaderLink href="https://www.copybass.com">Copy Bass</HeaderLink>
+          </nav>
+        </header>
+        {children}
+      </body>
     </html>
+  );
+}
+
+function HeaderLink({
+  children,
+  ...props
+}: LinkProps & { children: React.ReactNode }) {
+  return (
+    <Link {...props} className="px-4 text-sm">
+      {children}
+    </Link>
   );
 }
