@@ -28,7 +28,7 @@ export default function RootLayout({
             <HeaderLink href="https://www.copybass.com">Copy Bass</HeaderLink>
           </nav>
         </header>
-        {children}
+        <div className="p-8 md:p-16 md:pt-8">{children}</div>
       </body>
     </html>
   );
