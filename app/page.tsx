@@ -1,9 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
+import nicoImg from "@/public/nico_sky_blue_polo.jpeg";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center p-24 text-cneter">
       <h1 className="text-xl font-semibold mb-12">Hey! I&apos;m Nico Chaves</h1>
+      <Image
+        src={nicoImg}
+        alt="Photo of Nico Chaves"
+        placeholder="blur"
+        width={200}
+        className="rounded-full mb-12"
+      />
       <p className="text-center mb-8">
         I&apos;m a full-stack software engineer with significant experience
         using tools like TypeScript, React, Node.js, and SQL (especially
