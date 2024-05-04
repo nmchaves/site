@@ -39,7 +39,7 @@ export default function Home() {
         </Link>
         , which I created to help me practice playing bass. 🤘
       </p>
-      <div className="mt-16 grid gap-8 grid-cols-1 md:grid-cols-2 max-w-md md:max-w-4xl">
+      <div className="mt-16 gap-8 space-y-8 md:columns-2 max-w-md md:max-w-4xl">
         <Image
           src={nicoSunset}
           alt="A photo of Nico standing in a lush meadow overlooking the West Maui Mountains as the sun sets."
