@@ -17,7 +17,7 @@ export default function Home() {
         I&apos;m a full-stack software engineer with significant experience
         using tools like:
         <br />
-        TypeScript, React, Node.js, and SQL (especially PostgreSQL)
+        TypeScript, React, Node.js, GraphQL, and SQL (especially PostgreSQL)
       </p>
       <p className="text-center">
         When I&apos;m not building software, I like hiking with my dog Sophie,
