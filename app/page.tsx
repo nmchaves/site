@@ -15,8 +15,9 @@ export default function Home() {
       />
       <p className="text-center mb-8">
         I&apos;m a full-stack software engineer with significant experience
-        using tools like TypeScript, React, Node.js, and SQL (especially
-        PostgreSQL).
+        using tools like:
+        <br />
+        TypeScript, React, Node.js, and SQL (especially PostgreSQL)
       </p>
       <p className="text-center">
         When I&apos;m not building software, I like hiking with my dog Sophie,
