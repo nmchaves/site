@@ -12,7 +12,9 @@ import nicoHeavyBag from "@/public/nico_heavy_bag_round_kick.jpeg";
 export default function Home() {
   return (
     <main className="flex flex-col items-center max-w-5xl mx-auto text-center">
-      <h1 className="text-xl font-semibold mb-12">Hey! I&apos;m Nico Chaves</h1>
+      <h1 className="text-3xl font-semibold mb-12">
+        Hey! I&apos;m Nico Chaves
+      </h1>
       <Image
         src={nicoImg}
         alt="Photo of Nico Chaves"
