@@ -4,7 +4,7 @@ import nicoImg from "@/public/nico_sky_blue_polo.jpeg";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center p-24">
+    <main className="flex flex-col items-center p-24 max-w-5xl mx-auto">
       <h1 className="text-xl font-semibold mb-12">Hey! I&apos;m Nico Chaves</h1>
       <Image
         src={nicoImg}
