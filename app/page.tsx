@@ -49,20 +49,20 @@ export default function Home() {
           className="rounded"
         />
         <Image
-          src={fortFunstonOverlook}
-          alt="A photo of Nico petting his German Shepherd Sophie on a sandy hill overlooking the ocean at Fort Funston in San Francisco."
-          placeholder="blur"
-          className="rounded"
-        />
-        <Image
           src={sophieParkSunset}
           alt="A photo of Nico petting his German Shepherd Sophie's belly while she lays on the grass at the park as the sun sets."
           placeholder="blur"
           className="rounded"
         />
         <Image
-          src={rayAndTurtle}
-          alt="An underwater photo of a Hawaiian spotted eagle ray and green sea turtle swimming peacefully."
+          src={fenderBass}
+          alt="A close-up photo of Nico's left-handed Fender Precision Bass."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
+          src={fortFunstonOverlook}
+          alt="A photo of Nico petting his German Shepherd Sophie on a sandy hill overlooking the ocean at Fort Funston in San Francisco."
           placeholder="blur"
           className="rounded"
         />
@@ -73,8 +73,8 @@ export default function Home() {
           className="rounded"
         />
         <Image
-          src={fenderBass}
-          alt="A close-up photo of Nico's left-handed Fender Precision Bass."
+          src={rayAndTurtle}
+          alt="An underwater photo of a Hawaiian spotted eagle ray and green sea turtle swimming peacefully."
           placeholder="blur"
           className="rounded"
         />
