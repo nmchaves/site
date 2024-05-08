@@ -7,9 +7,10 @@ interface Props {
 }
 
 export default async function Page({ params }: Props) {
-  const post = await loadPostBySlug(params.slug);
-
-  if (post == null) {
+  let post;
+  try {
+    post = await loadPostBySlug(params.slug);
+  } catch (e) {
     return notFound();
   }
 
