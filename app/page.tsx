@@ -7,7 +7,7 @@ import sophieParkSunset from "@/public/sophie_park_sunset.jpeg";
 import rayAndTurtle from "@/public/ray_and_turtle.jpeg";
 import dogBeach from "@/public/dog_beach.jpeg";
 import fenderBass from "@/public/fender_precision_bass.jpeg";
-import nicoHeavyBag from "@/public/nico_heavy_bag_round_kick.jpeg";
+import nicoJohnLeConte from "@/public/nico_john_le_conte.jpeg";
 
 export default function Home() {
   return (
@@ -73,6 +73,12 @@ export default function Home() {
           className="rounded"
         />
         <Image
+          src={nicoJohnLeConte}
+          alt="A photo of Nico at the helm of the UC Davis Research Vessel John LeConte."
+          placeholder="blur"
+          className="rounded"
+        />
+        <Image
           src={dogBeach}
           alt="A photo of Nico with 2 German Shepherds on a beach with the San Francisco Bay in the background."
           placeholder="blur"
@@ -81,12 +87,6 @@ export default function Home() {
         <Image
           src={rayAndTurtle}
           alt="An underwater photo of a Hawaiian spotted eagle ray and green sea turtle swimming peacefully."
-          placeholder="blur"
-          className="rounded"
-        />
-        <Image
-          src={nicoHeavyBag}
-          alt="A photo of Nico kicking a heavy bag with a Muay Thai round kick."
           placeholder="blur"
           className="rounded"
         />
